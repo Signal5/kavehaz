@@ -1,0 +1,339 @@
+
+
+#layout{
+    width: 980px;
+    margin: auto;
+}
+
+
+body{
+  background: url(http://i1.istockimg.com/file_thumbview_approve/56825268/5/stock-illustration-56825268-brown-vintage-wallpaper-design.jpg) repeat;
+}
+
+
+header #headerfelso{
+ height: 175px;
+ background:black;
+ //border-bottom: 3px groove white;
+}
+
+header #headerfelso #logo{
+    width: 100%;
+    height: 105px;
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+}
+
+header #headerfelso #logo #logoimg{
+     height: 95px;
+   
+}
+
+header{
+   
+    background:black;
+    position: relative;
+    display: block;
+}
+header #lang {
+    padding-top: 9px;
+    text-align: right;
+    padding-right: 30px;
+  
+}
+
+header #lang a {
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+    background-color: #000;
+    color: #FFF;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    float:right;
+}
+header #lang img {
+    display: inline-block;
+    padding-top: 4px;
+    margin-left: 4px;
+}
+
+#langimg {
+    float: left;
+    margin-top: -4px;
+    margin-right: 3px;
+    width:21px;
+    height:15px;
+}
+
+table{
+    margin-top: 6px;
+    color: white;
+    font-size: 12px;
+}
+
+table td{
+   width: 350px;
+}
+
+
+/* MAIN MENU */
+
+nav{
+    border-top: 5px groove white;
+    border-bottom: 5px groove white;
+    height: 50px;
+    background:black;
+    text-align: center;
+}
+
+nav li a:hover{
+    color:#000000;
+    background: #D8A30B;
+    text-decoration:none;
+}
+
+nav li a{
+float: left;
+color: white;
+display: block;
+margin: 0;
+padding: 0;
+width: 95px;  
+height: 45px;  
+text-align:center;
+text-transform: uppercase;
+font-size: 12px;
+line-height: 40px;
+}
+
+nav li{
+padding: 0;
+margin: 0;
+}
+
+nav ul{
+ list-style-type: none;
+ padding-top: 0px;
+ margin: 0
+}
+
+#content{
+height: auto;
+background-color: #FFFFFF;
+
+}
+
+#content #c_left{
+    height: 650px;
+    width: 290px;
+    float: left;
+    padding: 25px 0 25px 19px;
+    margin-right: 25px;
+
+    
+}
+
+#content #c_left #kepkeret{
+    box-shadow: 0 4px 10px 5px #e5e5e5;
+}
+ 
+#content #c_right{
+    height: 650px;
+}
+
+#info{
+    background-color: #361a10;
+    padding: 20px 0px 20px 0px;
+    height: 100px;
+}
+
+.big{
+    font-size: 24px;
+}
+
+#info #info_tel{
+    padding-left: 80px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    color: #8c8c8c;
+    font-family: 'TrajanProRegular';
+    float: left;
+    font-size: 12px;
+
+    
+}
+
+#info #info_kozep{
+    border-left: 1px solid #000000;
+    text-transform: uppercase;
+    padding-left: 50px;
+    color: #8c8c8c;
+    font-family: 'TrajanProRegular';
+    font-size: 12px;
+    margin-left: 30px;
+    float: left; 
+}
+
+a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:link{
+    color: #FFF;
+    text-decoration: none;
+}
+
+#info #info_kozep a:hover{
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+#info #info_bal{
+    border-left: 1px solid #000000;
+    text-transform: uppercase;
+    padding-left: 50px;
+    color: #8c8c8c;
+    font-family: 'TrajanProRegular';
+    font-size: 12px;
+    margin-left: 30px;
+    float: left;
+}
+
+footer{
+    height: 190px;
+    background-color: #000000;
+    padding-top: 70px;
+}
+
+.footer_menu {
+    margin: 0px 25px 0px 25px;
+    border-bottom: 1px solid #666666;
+    padding-bottom: 30px;
+    display: block;
+}
+
+#footer .footer_menu #copyr{
+    text-align: right;
+}
+
+.footer_menu a {
+    color: #666666;
+    font-size: 10px;
+    font-family: verdana;
+    text-transform: uppercase;
+    border-left: 1px solid #666666;
+    padding: 0px 15px 0px 15px;
+    text-decoration: none;
+}
+
+footer #copyr{
+    float: right;
+    color: #666666;
+    font-size: 10px;
+    font-family: verdana;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 7px;
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    padding-right: 1.1em;
+}
+
+.c_right h1 {
+    font-family: TrajanProRegular;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    text-transform: uppercase;
+}
+h1 {
+    color: #d8a30b;
+    margin: 8px 0px 2px 0px;
+    padding: 0px;
+    padding-top: 25px;
+    font-weight: normal;
+    font-size: 36px;
+}
+
+h1 .alcim{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.title {
+    
+    font-size: 14px;
+    padding-top: 13px;
+    padding-left: 0;
+    color: #9F9F9F;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.dobozok {
+    margin-top: 20px;
+    margin-left: 325px;
+    height: 475px;
+}
+
+.box {
+    width: 287px;
+    float: left;
+    margin-bottom: 25px;
+    padding: 20px 0 0 20px;
+    margin-right: 30px;
+    height: 210px;
+    box-shadow: -7px -7px 18px 5px #e5e5e5;
+}
+
+.box a {
+    display: block;
+    padding-left: 0;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+
+}
+
+.box h2{
+    margin-top: -7px;
+    color: #d8a30b;
+    margin: 6px 0px 20px 0px;
+    padding: 0px;
+    padding-left: -15px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.box a {
+    display: block;
+    color: black;
+    padding-left: -45px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: black;
+    font-size: 11px;
+}
+
+.box .boxl{
+    margin-right: 15px;
+    width: 10px;
+    height: 10px,
+}
+
